@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "git-repo-info"
+version = "0.1.0"
+description = "A small read-only CLI to inspect local Git repositories"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [ { name = "daspan" } ]
+license = { text = "MIT" }
+keywords = ["git", "cli", "education"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.11",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.scripts]
+git-repo-info = "git_repo_info.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
