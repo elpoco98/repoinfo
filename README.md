@@ -5,7 +5,7 @@ A small, beginner-friendly Python CLI that inspects a local Git repository and p
 Prerequisites
 - Python 3.11+
 - Git installed and available on PATH
-- (Optional for tests) pytest and a virtual environment; this repository includes a `.venv/` directory used during development
+- (Optional for tests) pytest.
 
 Quick start
 
