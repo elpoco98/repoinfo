@@ -1,0 +1,28 @@
+# Python artifacts
+__pycache__/
+build/
+.eggs/
+*.egg-info/
+
+# Virtual environments
+.venv/
+env/
+venv/
+.env/
+
+# Secrets and config
+*.pem
+*.key
+
+# OS clutter
+.DS_Store adasd
+Thumbs.db
+
+
+
+# Logs and databases
+*.log
+*.sqlite3
+
+
+
